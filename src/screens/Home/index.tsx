@@ -51,9 +51,9 @@ export function Home() {
     setSearchText(text)
   }
 
-  useFocusEffect(useCallback(() => {
-    loadData();
-  }, []));
+  // useFocusEffect(useCallback(() => {
+  //   loadData();
+  // }, []));
 
   return (
     <>
